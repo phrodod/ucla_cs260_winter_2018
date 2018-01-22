@@ -9,6 +9,9 @@ the axes of the plot.
 import random
 import matplotlib.pyplot as plt
 import seaborn as sns
+import pandas as pd
+import numpy as np
+
 sns.set()
 
 class Data(object):
@@ -16,18 +19,16 @@ class Data(object):
         self.gen_data()
 
     def gen_data(self):
-        points = [(random.uniform(-1, 1), random.uniform(-1, 1)) for _ in range(20)]
-        labels = [1 if p[0] < p[1] else 0 for p in points]
-        self._class1 = [points[i] for i in range(len(labels)) if labels[i] == 1]
-        self._class2 = [points[i] for i in range(len(labels)) if labels[i] == 0]
+        x = [random.uniform(-1, 1) for _ in range(20)]
+        y = [random.uniform(-1, 1) for _ in range(len(x))]
+        labels = [1 if x[i] < y[i] else 0 for i in range(len(x))]
+        self._df = pd.DataFrame(data={'x':x, 'y':y, 'label':labels})
 
     def plot_data(self):
-        x = [i[0] for i in self._class1]
-        y = [i[1] for i in self._class1]
-        plt.scatter(x, y)
-        x = [i[0] for i in self._class2]
-        y = [i[1] for i in self._class2]
-        plt.scatter(x, y, marker='x')
+        markers = {0:'x', 1:'o'}
+        for label in [0, 1]:
+            d = self._df[self._df.label == label]
+            plt.scatter(d.x, d.y, marker=markers[label])
         plt.plot([-1, 1], [-1, 1])
         plt.xlabel('x')
         plt.ylabel('y')
