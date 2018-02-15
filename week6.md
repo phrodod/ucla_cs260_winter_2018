@@ -13,7 +13,7 @@ Validation.
 
 The instructor already issued [homework 3], which has several questions
 covering Section 1.4 and Chapter 2. In addition, the CalTech course provided
-additiona homework that tests your conceptual knowledge with multiple choice
+additional homework that tests your conceptual knowledge with multiple choice
 questions.
 
 Fortunately for me, we already have some great lectures covering these topics
@@ -55,7 +55,7 @@ by the e-chapters from the book in chapters 6 and 8. I've asked Mimi Chiang to
 take on leading the seminar on syllabus week 6. I believe that Zoom session
 would be Sunday, 2/25.
 
-[homework3]: https://ccle.ucla.edu/pluginfile.php/2138482/course/section/63896182/hw3.pdf
+[homework 3]: https://ccle.ucla.edu/pluginfile.php/2138482/course/section/63896182/hw3.pdf
 [Error and Noise]: http://www.youtube.com/watch?v=L_0efNkdGMc&hd=1
 [Theory of Generalization]: http://www.youtube.com/watch?v=6FWRijsmLtE&hd=1
 [The VC Dimension]: http://www.youtube.com/watch?v=Dc0sr0kdBVI&hd=1
