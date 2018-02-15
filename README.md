@@ -12,6 +12,8 @@ Moderated by __Phillip David__
    * The VC Dimension
    * Bias-Variance Tradeoff
 
+[Assignments](week6.md)
+
 ## Sunday, 2/18 @ 2 PM PST
 Moderated by __Phillip David__
 
