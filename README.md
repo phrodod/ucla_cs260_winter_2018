@@ -65,16 +65,28 @@ Saturday, 3/3 or Sunday, 3/4
 * EM Algorithm
 * Reading from e-chapter 6
 
-## Week 9
-   * Original Syllabus Week 9 - Moderator needed - Tuesday, 3/6, Friday, 3/9, or Saturday, 3/10
-      * Dimensionality Reduction/PCA
-      * Reinforcement Learning
-      * Reading from e-chapter 9
-   * Original Syllabus Week 10 - Moderator needed - Saturday, 3/10 or Sunday, 3/11
-      * Deep Learning
-      * Machine Learning Trends
-      * Reading from e-chapter 9
+# Week 9
+## Original Syllabus Week 9
+__Moderator needed__
 
-## Week 10
-   * Final Preparation - Moderator needed - Tuesday, 3/13
-      *   Course Summary
+Tuesday, 3/6, Friday, 3/9, or Saturday, 3/10
+
+* Dimensionality Reduction/PCA
+* Reinforcement Learning
+* Reading from e-chapter 9
+
+## Original Syllabus Week 10
+__Moderator needed__
+
+Saturday, 3/10 or Sunday, 3/11
+
+* Deep Learning
+* Machine Learning Trends
+* Reading from e-chapter 9
+
+# Week 10 - Final Preparation
+__Moderator needed__
+
+Tuesday, 3/13
+
+* Course Summary
